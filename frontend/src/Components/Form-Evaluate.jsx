@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Navbar from './Navbar';
 // --- Global Styles ---
 const GlobalStyle = createGlobalStyle`
   body {
@@ -485,7 +484,6 @@ const FormEvaluate = () => {
     return (
         <>
             <GlobalStyle />
-            <Navbar />
             <ToastContainer
                 position="top-right" // ตำแหน่งแสดงผล
                 autoClose={3000}     // ปิดอัตโนมัติใน 3 วินาที
